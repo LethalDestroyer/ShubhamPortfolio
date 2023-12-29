@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../editable-stuff/ShivamResume.pdf";
+import Pdf from "../../editable-stuff/LTIM Shubham Harne.docx";
 
 import axios from "axios";
 
