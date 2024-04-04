@@ -107,13 +107,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "P. R. POTE PATIL COLLEGE OF ENGG, Amravati University",
+      schoolName: "P. R. POTE PATIL COLLEGE OF ENGG",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Electronics And Telecommunication Engineering (B.Tech)",
+      subHeader: "Bachelor of Engineering, Electronics and TeleCommunications Engineering",
       duration: "August 2017 - April 2020",
       desc: "Academics Project's ",
       descBullets: [
-        "Created a project called Mobile Recharge application based on .Net language in 3rd year",
+        "OOP",
+        "System Design",
+        "Microcontrollers",
+        "Operating Systems",
+        "Artificial Intelligence",
+        "Fundamentals of Programming Langauge",
+        "Represented College at Various Dance and Cricket Competitions for 3 years.",
         "Created a one project called Banking application based on Php language in final year"
       ]
     },
@@ -142,9 +148,22 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Devops",
+      Stack: "jenkins",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "terraform",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Docker",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Kubernates",
+      progressPercentage: "30%"
     }
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -192,39 +211,39 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      // image: require("./assets/images/saayaHealthLogo.webp"),
-      // projectName: "Saayahealth",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      // projectName: "Nextu",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://nextu.se/"
-      //   }
-      // ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // title: "Big Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  // projects: [
+  //   {
+  //     // image: require("./assets/images/saayaHealthLogo.webp"),
+  //     // projectName: "Saayahealth",
+  //     // footerLink: [
+  //     //   {
+  //     //     name: "Visit Website",
+  //     //     url: "http://saayahealth.com/"
+  //     //   }
+  //     //   //  you can add extra buttons here.
+  //     // ]
+  //   },
+  //   {
+  //     // image: require("./assets/images/nextuLogo.webp"),
+  //     // projectName: "Nextu",
+  //     // footerLink: [
+  //     //   {
+  //     //     name: "Visit Website",
+  //     //     url: "http://nextu.se/"
+  //     //   }
+  //     // ]
+  //   }
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -236,54 +255,39 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+      {
+        title: "Python",
+        subtitle: "Completed Python Learning Course and used the knowledge to apply to a Project.",
+        image: require("./assets/images/python.png"),
+        footerLink: [
+          {name: "Certification", url: "https://drive.google.com/file/d/1_lDJPvdltRP5ksxiBxvnl7AzFlbp_qwJ/view?usp=sharing"},
+          {
+            name: "See Project",
+            url: "https://github.com/ameygoes/PythonDSA"
+          }
+        ]
+      },
     {
-      title: "Google Code-In Finalist",
+      title: "Python testdome Certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        // },
-        // {
-        //   name: "Award Letter",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed Python Certification , RANKING IN THE TOP 10%",
+      image: require("./assets/images/testdome.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        {name: "Certification", url: "https://www.testdome.com/certificates/243831ed6f7a4fc3ae892781a70529a7"},
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "AWS Foundation Certificate",
+      subtitle:
+        "Completed AWS Certification, deep learning on the AWS Foundation. ",
+      image: require("./assets/images/AWS-LOGO.png"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://app.pluralsight.com/learner/user/courses/v2/0034e595-5367-49f8-8ef0-bb2a4bd04412/certificate"},
       ]
     }
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -293,7 +297,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I haven't write any yet, Soon I will drop a bomb only if I create something like that 😅",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -315,51 +319,51 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  // title: "TALKS",
+  // subtitle: emoji(
+  //   "I WOULD LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE BUT I'M NOT READY YET 😅"
+  // ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // talks: [
+  //   {
+  //     // title: "Build Actions For Google Assistant",
+  //     // subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //     // slides_url: "https://bit.ly/saadpasta-slides",
+  //     // event_url: "https://www.facebook.com/events/2339906106275053/"
+  //   }
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: emoji("Podcast 🎙️"),
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // // Please Provide with Your Podcast embeded Link
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Are you looking for a Backend Python Developer or Cloud Engine for your Organization? Please contact on below Email:.",
+  number: "+91-8208677438",
+  email_address: "harne.shubh@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  // userName: "twitter", //Replace "twitter" with your twitter username without @
+  // display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
