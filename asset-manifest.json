@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/harneshubham/static/css/main.0d5b0b20.css",
+    "main.js": "/harneshubham/static/js/main.da261bbb.js",
+    "static/css/64.bba8fa55.chunk.css": "/harneshubham/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.a9224b35.chunk.js": "/harneshubham/static/js/64.a9224b35.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/harneshubham/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.3e4f39e6.chunk.js": "/harneshubham/static/js/769.3e4f39e6.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/harneshubham/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/harneshubham/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/python.png": "/harneshubham/static/media/python.f0c9d64775aac23759fe.png",
+    "static/media/AWS-LOGO.png": "/harneshubham/static/media/AWS-LOGO.1d12dac553d9b80656ec.png",
+    "static/media/manOnTable.svg": "/harneshubham/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/harvardLogo.png": "/harneshubham/static/media/harvardLogo.2e5c030592b0a3543975.png",
+    "static/media/contactMailDark.svg": "/harneshubham/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/testdome.png": "/harneshubham/static/media/testdome.798e6d92d75a4fc6765f.png",
+    "static/media/developerActivity.svg": "/harneshubham/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/facebookLogo.png": "/harneshubham/static/media/facebookLogo.8d13da3e8aed9ea26be9.png",
+    "static/media/skill.svg": "/harneshubham/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/harneshubham/index.html",
+    "static/media/talksCardBack.svg": "/harneshubham/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.0d5b0b20.css.map": "/harneshubham/static/css/main.0d5b0b20.css.map",
+    "main.da261bbb.js.map": "/harneshubham/static/js/main.da261bbb.js.map",
+    "64.bba8fa55.chunk.css.map": "/harneshubham/static/css/64.bba8fa55.chunk.css.map",
+    "64.a9224b35.chunk.js.map": "/harneshubham/static/js/64.a9224b35.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/harneshubham/static/css/769.b3cbb36b.chunk.css.map",
+    "769.3e4f39e6.chunk.js.map": "/harneshubham/static/js/769.3e4f39e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d5b0b20.css",
+    "static/js/main.da261bbb.js"
+  ]
+}
