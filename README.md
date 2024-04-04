@@ -31,7 +31,7 @@ Just change `src/portfolio.js` to get your personal portfolio. Customize portfol
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://ameyportfolio.netlify.app/)**.
+To view a live example, **[click here](https://LethalDestroyer.github.io/harneshubham)**.
 
 
 ## Getting Started
