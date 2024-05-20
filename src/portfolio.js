@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Python and DevOps Software Developer 🚀, I bring over 4 years of hands-on experience in crafting robust infrastructures using Terraform. My expertise spans across a diverse array of technologies, prominently including AWS services such as EC2, S3, VPC, Route53, IAM, Security Groups, ELB, ACM, and RDS. Leveraging Python libraries like boto3, I've automated and optimized various tasks, enhancing operational efficiency."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1FrLcqquITjTVFUaYhmbXOE9J5zkASCW_/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
